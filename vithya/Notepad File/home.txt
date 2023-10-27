@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>viya</title>
+<style>
+body
+{
+background-image:url('h2.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+
+
+</style>
+</head>
+<h1 style="font-size:60px;color:purple;font-family:georgia;text-align:center;">viya</h1>
+<div class="topnav">
+<a class="active"
+<a style="color:red">
+<a href="home.html">HOME</a>
+<a href="#">|</a>
+<a href="tamil1.html">language</a>
+<a href="#">|</a>
+<a href="signup.html">signup</a>
+<a href="#">|</a>
+<a href="login.html">login</a>
+<a href="#">|</a>
+</div>
+</ul>
+</hr>
+<h1 style="font-size:50px:color:Salmon;font-face:forte;text-align:center;"><strong>Knowledge of languages<br><br>is the doorway to wisdom</strong></h1>
+<h2 style="font-size:10px;color:red;font-family:georgia;text-align:right;">

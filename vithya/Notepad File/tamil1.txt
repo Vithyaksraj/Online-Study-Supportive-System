@@ -1,0 +1,22 @@
+<html>
+<head>
+<style>
+body
+{
+background-image:url('t1.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+</style>
+<title>LANGUAGE</title>
+<h1 align="center";"color:red";>LANGUAGES</h1>
+<!--form action="tv.html"-->
+<a href="tv.html"><center><img src="tamil.jpg" width="200px"></center></a><br><br><br><br>
+</form>
+<!--form action="engv.html"-->
+<a href="engv.html"><center><img src="eng.jpg" width="200px"></center>
+</form>
+</head>
+</body>
+</html>

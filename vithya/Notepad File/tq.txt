@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+body
+{
+background-image:url('tq.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+</style>
+<form method="POST" action="mark.py">
+	1) When pronouncing the alphapet,where are the syllables born?<br>
+		<input type="radio" name="one" value="the head">the head<br>
+		<input type="radio" name="one" value="Neck">Neck<br>		
+		<input type="radio" name="one" value="the nose">the nose<br>	
+		<input type="radio" name="one" value="chest">chest<br><br>
+		
+	2) Which of the following letters is cursive in tamil language?<br>
+		<input type="radio" name="two" value="e">e<br>
+		<input type="radio" name="two" value="A">A<br>
+		<input type="radio" name="two" value="a">a<br>
+		<input type="radio" name="two" value="Ya">Ya<br><br>
+	
+	3) How many mayangolis letters are there in tamil alphabet?<br>
+		<input type="radio" name="three" value="6">6<br>
+		<input type="radio" name="three" value="8">8<br>
+		<input type="radio" name="three" value="10">10<br>
+		<input type="radio" name="three" value="12">12<br><br>
+
+	4) Venba_____type.<br>
+		<input type="radio" name="four" value="four">four<br>
+		<input type="radio" name="four" value="Eight">Eight<br>
+		<input type="radio" name="four" value="Three">Three<br>
+		<input type="radio" name="four" value="Five">Five<br><br>
+
+	5) select the incorrect convention:<br>
+		<input type="radio" name="five" value="Maam pinju-Mavadu">Maam pinju-Mavadu<br>
+		<input type="radio" name="five" value="Young coconut-Bald">Young coconut-Bald<br>
+		<input type="radio" name="five" value="Young coconut-Bald">Young coconut-Bald<br>
+		<input type="radio" name="five" value="Drumstick pinch-drumstick bud">Drumstick pinch-drumstick bud<br><br>
+	6)Get-Choose the verb for this word:<br>
+		<input type="radio" name="six" value="received">received<br>
+		<input type="radio" name="six" value="recipient">recipient<br>
+		<input type="radio" name="six" value="get">get<br>
+		<input type="radio" name="six" value="recipients">recipients<br><br>
+	7)Find the correct meaning of 'go'-this word:<br>
+		<input type="radio" name="seven" value="the king">the king<br>
+		<input type="radio" name="seven" value="the swan">the swan<br>
+		<input type="radio" name="seven" value="Adavan">Adavan<br>
+		<input type="radio" name="seven" value="love">love<br><br>
+
+
+<input type="submit" value="submit"style="font-size:22;color:Salmon">
+</form>
+</body>
+</head>
+</html>

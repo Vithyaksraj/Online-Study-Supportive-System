@@ -1,0 +1,86 @@
+#!C:\Program Files\Python310\python.exe
+print("Content-type:text/html\n\r")
+
+import cgi
+form= cgi.FieldStorage()
+ma=0
+h=form.getvalue('pe')
+a=form.getvalue('one')
+b=form.getvalue('two')
+c=form.getvalue('three')
+d=form.getvalue("four")
+e=form.getvalue('five')
+f=form.getvalue('six')
+g=form.getvalue('seven')
+print(h)
+
+if a=="simple present":
+    ma+=1
+else:
+    pass
+ 
+if b=="simple past":
+    ma+=1
+else:
+    pass
+
+if c==" simple present":
+    ma+=1
+else:
+   pass
+
+if d=="present":
+    ma+=1
+else:
+   pass
+
+if e=="will-future":
+    ma+=1
+else:
+   pass
+if f=="past perfect":
+    ma+=1
+else:
+   pass
+if g=="if i am":
+    ma+=1
+else:
+   pass
+
+print("<h1 style='color:blue;'><u>Result</u><br><br>mark",ma,"</h1>")
+print('''
+<head>
+    <style>
+       body{
+background-image: url('c.jpg');
+backgorund-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
+<body>
+<form method="POST" action="q2.py">
+<br><br>
+<a href="tamil1.html"style="color:red;font-size:8"><h1>Back to home</h1></a>
+</form>
+</body>
+''')
+
+
+
+
+mark=ma
+import smtplib
+
+
+
+sender="vithyaksraj1311@gmail.com"
+password="jQspbvczthikaflo"
+receiver=str(h)
+
+connection=smtplib.SMTP("smtp.gmail.com",587)
+connection.starttls()
+connection.login(sender,password)
+msg=", completed English grammar  /n scored mark in the quiz"+str(mark)
+
+connection.sendmail(sender,receiver,msg)

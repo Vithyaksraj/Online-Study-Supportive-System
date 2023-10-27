@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>viya</title>
+<style>
+	
+body{
+background-image: url('engv.jpg');
+backgorund-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
+
+<body>
+           <form method="POST" action="enq.html">
+	<div style="position:relative;left:70px;top:23px;">
+<center><h2 style="color:Salmon;font-family:Calibiri;"> <u>English grammar</u></h2></center><br><br>
+	</div><br><br>
+
+ <center>    
+	<video width="500px" controls><br> 
+    	<source src="video2.mp4"type="video/mp4">
+</video>
+</center>
+<br>
+<h2 style="color:Light blue;font-family:Calibiri;">Before going to next language,please complete your quiz</h2>
+<br>
+	<center>
+	<input type="Submit" value="Click To Go" style="font-size:22;background-color:Orchid">
+	</center>
+</form>
+</body>
+</html>
